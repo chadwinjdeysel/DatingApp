@@ -72,6 +72,7 @@ namespace DatingApp.API.Controllers
                         Transformation = new Transformation().Width(500).Height(500).Crop("fill").Gravity("face")
                     };
 
+                    // uploads image 
                     uploadResult = _cloundinary.Upload(uploadParams);
                 }
             }
